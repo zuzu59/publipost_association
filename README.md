@@ -1,7 +1,7 @@
 # publipost_association
 
 
-#ATTENTION, ce n'est pas encore fonctionnel !<br>
+# ATTENTION, ce n'est pas encore fonctionnel !<br>
 mais le test_mutt.sh fonction déjà ;-)<br>
 zf170417.2318
 <br>
