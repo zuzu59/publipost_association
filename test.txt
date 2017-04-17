@@ -1,0 +1,7 @@
+Hello,
+
+c'est un test d'envoi d'email par batch
+
+Merci
+@+
+zf

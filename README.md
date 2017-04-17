@@ -1,12 +1,17 @@
 # publipost_association
 
 
-Le travail d'un secrétaire dans une association, chaque année, est d'envoyer un publipostage pour le renouvellement de la cotisation annuelle. 
+#ATTENTION, ce n'est pas encore fonctionnel !<br>
+zf170417.2318
+<br>
+<br>
 
+Le travail d'un secrétaire dans une association, chaque année, est d'envoyer un publipostage pour le renouvellement de la cotisation annuelle.
+<br>
 Quand il y a plus que quelques membres, il devient très vite fastidieux de le faire à la main.
-
+<br>
 Ce script permet donc d'envoyer un courrier électronique à chaque membres avec en annexe la facture pour le renouvellement de la cotisation annuelle.
-
+<br>
 ### Installation:
 **``./install.sh``**
 

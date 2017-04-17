@@ -1,0 +1,51 @@
+zf170417.2307
+
+Source:
+https://www.garron.me/en/go2linux/send-mail-gmail-mutt.html
+
+sudo apt-get update
+sudo apt-get install mutt
+
+
+Configure mutt
+
+To configure it, we need to create ~./muttrc and put inside the file this contents
+
+set from = "user@gmail.com"
+set realname = "Guillermo Garron"
+set imap_user = "user@gmail.com"
+set imap_pass = "password"
+set folder = "imaps://imap.gmail.com:993"
+set spoolfile = "+INBOX"
+set postponed ="+[Gmail]/Drafts"
+set header_cache =~/.mutt/cache/headers
+set message_cachedir =~/.mutt/cache/bodies
+set certificate_file =~/.mutt/certificates
+set smtp_url = "smtp://user@smtp.gmail.com:587/"
+set smtp_pass = "password"
+set move = no
+set imap_keepalive = 900
+
+
+Create the folders
+
+mkdir -p /.mutt/cache
+
+Change, for your user and your password, and you are done.
+Sending emails
+
+Now that mutt is configured it is ready to start sending emails.
+
+mutt -s "Test from mutt" user@yahoo.com < /tmp/message.txt
+
+And if you need to send an attachment
+
+mutt -s "Test from mutt" user@yahoo.com < /tmp/message.txt -a /tmp/file.jpg
+
+-s “Test from mutt” is the subject -a /tmp/file.jpg is the attachment /tmp/message.txt is the message itself
+
+This is another way to write the test, having the body in the same line.
+
+echo "This is the body" | mutt -s "Testing mutt" user@yahoo.com -a /tmp/XDefd.png
+
+If you need to use send emails from a script, just use that line in the script, but be sure that is the user that has the .muttrc file in his / her home directory the one that runs the script.
