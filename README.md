@@ -1,10 +1,11 @@
 # publipost_association
 
 
-Dans des associations il faut chaque année envoyer un publipostage pour les cotisations de l'année. Il est fastidieu de le faire à la main quand on peut le faire au moyen d'une moulinette.
+Le travail d'un secrétaire dans une association, chaque année, est d'envoyer un publipostage pour le renouvellement de la cotisation annuelle. 
 
-Ce script permet donc d'envoyer un courrier électronique à chaqu'unn avec en annexe la facture pour le renouvellement de la cotisation annuelle.
+Quand il y a plus que quelques membres, il devient très vite fastidieux de le faire à la main.
 
+Ce script permet donc d'envoyer un courrier électronique à chaque membres avec en annexe la facture pour le renouvellement de la cotisation annuelle.
 
 ### Installation:
 **``./install.sh``**
@@ -14,6 +15,14 @@ Ce script permet donc d'envoyer un courrier électronique à chaqu'unn avec en a
 
 ### Pour décrypter les credentials utilisés par Mutt (/.muttrc)
 **``acb_uncrypt.sh``**
+
+### Format des fichiers d'envoi:
+**``liste_email.txt``**<br>
+email_adresse(space)annexe<br>
+<br>
+**``texte_accompagnement.txt``**<br>
+bla bla bla<br>
+bla bla bla<br>
 
 ### Utilisation:
 **``./start.sh``**
