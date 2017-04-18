@@ -8,11 +8,11 @@ echo "Certain que vous vouliez envoyer le publipostage ? (CTRL+C pour arrêter):
 
 
 
-while IFS=, read col1 col2
+while IFS=, read col1 col2 col3 col4 col5
 do
-    echo "Envoi de $col2 à $col1"
+  echo "Envoi de $col5 à $col4"
 
-  mutt -s "Fablab, cotisations 2017" $col1 < ./corps_email.txt -a ./annexes/$col2
-  sleep 3
+  mutt -s "Fablab, cotisations 2017" $col4 < ./corps_email.txt -a "./annexes/$col5"
+  sleep 1
 
 done < liste_publipost.csv
