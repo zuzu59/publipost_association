@@ -34,6 +34,10 @@ bla bla bla<br>
 **``./start.sh``**
 
 
+### Débloquer un compte GMAIL
+Pour réactiver le compte si jamais bloqué:<br>
+https://accounts.google.com/DisplayUnlockCaptcha
+
 <br><br>
 
 ### Goodies:
