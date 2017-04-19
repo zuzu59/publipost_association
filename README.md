@@ -17,10 +17,10 @@ Ce script permet donc d'envoyer un courrier électronique à chaque membres avec
 
 ## Format des fichiers d'envoi:
 ### Liste d'emails et annexes à envoyer
-Le fichier, **liste_publipost.csv**, actuellement comporte 5x colonnes dont seules les deux dernières sont utilisées. Il faut modifier en conséquence le script d'envoi send_emails.sh<br>
+Le fichier, *liste_publipost.csv*, actuellement comporte 5x colonnes dont seules les deux dernières sont utilisées. Il faut modifier en conséquence le script d'envoi send_emails.sh<br>
 <br>
 ### Texte d'accompagnement
-Le fichier, **corps_email_bienvenue_2017.txt**, contient le texte d'accompagnement<br>
+Le fichier, *corps_email_bienvenue_2017.txt*, contient le texte d'accompagnement<br>
 
 ## Utilisation:
 ### Pour juste tester si *mutt* fonctionne
@@ -31,7 +31,9 @@ Le fichier, **corps_email_bienvenue_2017.txt**, contient le texte d'accompagneme
 
 
 ## Débloquer un compte GMAIL
-Pour réactiver le compte si jamais bloqué:<br>
+Il faut autoriser le compte GMAIL à être utilisé pas autre chose que le client Gmail:<br>
+https://myaccount.google.com/security#connectedapps<br>
+Autrement le compte se vérouille pour l'adresse IP que l'on a utilisé pour le publipostage. Pour réactiver le compte si jamais bloqué:<br>
 https://accounts.google.com/DisplayUnlockCaptcha
 
 <br><br>
