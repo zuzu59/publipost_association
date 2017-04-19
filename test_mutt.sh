@@ -1,5 +1,5 @@
 #!/bin/bash
 #Démarrage de l'application
-#zf170417.1458
+#zf170419.1157
 
-mutt -s "Test d'envoi des cotisations 2017" christian.zufferey@epfl.ch < ./corps_email.txt -a ./test.pdf
+mutt -c christian.zufferey@gmail.com -s "Test d'envoi des cotisations 2017" christian.zufferey@epfl.ch < ./test.txt -a ./test.pdf

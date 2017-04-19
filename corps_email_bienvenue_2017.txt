@@ -1,9 +1,9 @@
-Hello,
+Bonjour,
 
 Bienvenue au FabLab de Renens !
 Voici, en annexe, votre cotisation d'adhérent pour l'année 2017.
 
-Merci de bien indiquer le numéro de facture dans le champ commentaire lors de votre paiement.
+Merci de bien indiquer la référence de la facture dans le champ 'commentaire' lors de votre paiement.
 
 Cordialement
 Le secrétaire: Ch. Zufferey
