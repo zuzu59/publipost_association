@@ -18,10 +18,9 @@ Ce script permet donc d'envoyer un courrier électronique à chaque membres avec
 ## Format des fichiers d'envoi:
 ### Liste d'emails et annexes à envoyer
 Le fichier, *liste_publipost.csv*, actuellement comporte 5x colonnes dont seules les deux dernières sont utilisées. Il faut modifier en conséquence le script d'envoi send_emails.sh<br>
-<br>
 ### Texte d'accompagnement
 Le fichier, *corps_email_bienvenue_2017.txt*, contient le texte d'accompagnement<br>
-
+<br>
 ## Utilisation:
 ### Pour juste tester si *mutt* fonctionne
 **``./test_mutt.sh``**<br>
