@@ -1,6 +1,6 @@
 # publipost_association
 
-Le travail d'un secrétaire dans une association, chaque année, est d'envoyer un publipostage pour le renouvellement de la cotisation annuelle.
+Le travail d'un(e) secrétaire dans une association, chaque année, est d'envoyer un publipostage pour le renouvellement de la cotisation annuelle.
 <br>
 Quand il y a plus que quelques membres, il devient très vite fastidieux de le faire à la main.
 <br>
