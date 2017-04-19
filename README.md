@@ -9,10 +9,10 @@ Ce script permet donc d'envoyer un courrier électronique à chaque membres avec
 ## Installation:
 **``./install.sh``**
 
-## Pour crypter les credentials utilisés par Mutt (/.muttrc)
+## Pour crypter les *credentials* utilisés par Mutt (/.muttrc)
 **``acb_crypt.sh``**
 
-## Pour décrypter les credentials utilisés par Mutt (/.muttrc)
+## Pour décrypter les *credentials* utilisés par Mutt (/.muttrc)
 **``acb_uncrypt.sh``**
 
 ## Format des fichiers d'envoi:
