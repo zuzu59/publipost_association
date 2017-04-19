@@ -1,12 +1,5 @@
 # publipost_association
 
-
-# ATTENTION, ce n'est pas encore fonctionnel !<br>
-mais le test_mutt.sh fonction déjà ;-)<br>
-zf170417.2318
-<br>
-<br>
-
 Le travail d'un secrétaire dans une association, chaque année, est d'envoyer un publipostage pour le renouvellement de la cotisation annuelle.
 <br>
 Quand il y a plus que quelques membres, il devient très vite fastidieux de le faire à la main.
@@ -23,15 +16,18 @@ Ce script permet donc d'envoyer un courrier électronique à chaque membres avec
 **``acb_uncrypt.sh``**
 
 ### Format des fichiers d'envoi:
-**``liste_email.txt``**<br>
-email_adresse(space)annexe<br>
+**Liste d'emails et annexes à envoyer**<br>
+Le fichier, **liste_publipost.csv**, actuellement comporte 5x colonnes dont seules les deux dernières sont utilisées. Il faut modifier en conséquence le script d'envoi send_emails.sh<br>
 <br>
-**``texte_accompagnement.txt``**<br>
-bla bla bla<br>
-bla bla bla<br>
+**Texte d'accompagnement**<br>
+Le fichier, **corps_email_bienvenue_2017.txt**, contient le texte d'accompagnement<br>
 
 ### Utilisation:
-**``./start.sh``**
+Pour juste tester si *mutt* fonctionne:<br>
+**``./test_mutt.sh``**<br>
+
+Pour envoyer le publipostage:<br>
+**``./start.sh``**<br>
 
 
 ### Débloquer un compte GMAIL
