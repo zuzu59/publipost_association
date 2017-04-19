@@ -33,7 +33,3 @@ https://myaccount.google.com/security#connectedapps<br>
 Autrement le compte se vérouille pour l'adresse IP que l'on a utilisé pour le publipostage. Pour réactiver le compte si jamais bloqué:<br>
 https://accounts.google.com/DisplayUnlockCaptcha
 
-<br><br>
-
-## Goodies:
-Y'en a pas cette fois-ci ;-(
